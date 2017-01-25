@@ -6,6 +6,8 @@ In the example 300 = width, 200 = height.
 
 Use the code from page.php inside your page/post template where you want to display the image. Change your-image-name to match what you set up in functions.php
 
+# Adding more image sizes
+
 You can add more image sizes in functions.php like so:
 
 if ( function_exists( 'add_image_size' ) ) {
